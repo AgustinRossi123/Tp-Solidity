@@ -1,0 +1,175 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nombre_",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "apellido_",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "curso_",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "apellido",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "materia",
+						"type": "string"
+					}
+				],
+				"name": "aprobo",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "curso",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nombre_completo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "materia",
+						"type": "string"
+					}
+				],
+				"name": "nota_materia",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "promedio",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "nota",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "materia",
+						"type": "string"
+					}
+				],
+				"name": "set_nota_materia",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/estudiantes.sol": "estudiante"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/estudiantes.sol": {
+			"keccak256": "0x7a719e4ce715d1b57520de39dbc270f721a89610b9f2f22f6f9f1b8a5fab231f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://54218fbe3a9775f0c05f8c9c2939fb009d630d621290edb23701262a92a3ce90",
+				"dweb:/ipfs/QmTe9nVqnBk9aSLVMKvgmRC5nsWrYkZF2UZtUb7UjAMd4V"
+			]
+		}
+	},
+	"version": 1
+}
